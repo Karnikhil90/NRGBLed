@@ -13,7 +13,7 @@ NEffect effect(led);  // Pass led to NEffect
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("Starting Sexy LED Showcase...");
+  Serial.println("Starting LED Showcase...");
 }
 
 void loop() {
