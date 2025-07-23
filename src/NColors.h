@@ -4,6 +4,13 @@
 #include <Arduino.h>
 #include "NRGBLed.h"
 
+// [DEBUG]
+
+#define BLUE_PIN 3
+#define GREEN_PIN 5
+#define RED_PIN 6
+
+
 // Basic color defines
 #define RED        {255, 0, 0}
 #define GREEN      {0, 255, 0}
