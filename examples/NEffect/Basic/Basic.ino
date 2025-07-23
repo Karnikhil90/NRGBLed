@@ -7,7 +7,6 @@
 #define GREEN_PIN 5
 #define RED_PIN 6
 
-// Create LED instance on pins 9, 10, 11
 NRGBLed led(RED_PIN, GREEN_PIN, BLUE_PIN);
 NEffect effect(led);  // Pass led to NEffect
 
